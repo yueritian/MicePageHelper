@@ -2,7 +2,7 @@
 /**
  * jquery分页插件
  * 
- * author:陈鹏昊
+ * author:chenph
  * date:2015/12/5 
  */
 (function($) {
