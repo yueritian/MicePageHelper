@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="reset.css" rel="stylesheet" type="text/css" />
+<link href="micePage.css" rel="stylesheet" type="text/css" />
+<script src="jquery-2.0.2.min.js" type="text/javascript"></script>
+<script src="micePage.js" type="text/javascript"></script>
+</head>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#micePage").mice_pageBox({
+		rootCss : 'micePage',		// 根css，负责不同css样式套系的区分
+		url : '',	// 跳转url
+		currentPage : 1,		// 当前页数
+		pageSize : 10,			// 页面显示条数
+		viewPageNum : 10,
+		totalPage : 1			// 总页数
+	});
+});
+</script>
+<body>
+<div style=" width:500px; margin:0 auto">
+	<div id = "micePage">
+		
+	</div>
+</div>
+</body>
+</html>

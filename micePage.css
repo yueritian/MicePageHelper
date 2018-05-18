@@ -1,0 +1,13 @@
+.micePage{width: 800px;height: 35px;margin:  0 auto;margin-top: 25px;}
+.micePage .pageBox{float: left;height: 35px;border: 1px solid #DCDCDC;border-radius: 5px;}
+.micePage .pageBox .shouYe{float: left;color:#ccc;width:65px;height:35px;background:#fff;border-radius: 5px;border: 0px;border-right: 1px solid #DCDCDC;}
+.micePage .pageBox  ul{float: left;}
+.micePage .pageBox  ul li {display: inline-block;height:35px;width: 26px;line-height: 35px;font-size: 18px;text-align:center;}
+.micePage .pageBox  ul li a{color: #ccc;cursor:pointer;}
+.micePage .pageBox  ul li.chos{background: #FF6600;}
+.micePage .pageBox  ul li.chos a{color: #fff;}
+.micePage .pageBox  ul li :hover{display: inline-block;width:26px;background: #FF6600;text-align:center;color: #fff;}
+.micePage .pageBox .weiYe{float: left;color:#ccc;width:65px;height:35px;background:#fff;border-radius: 5px;border: 0px;border-left: 1px solid #DCDCDC;}
+.micePage p{float: left;font-size: 15px;color: #ccc;margin-left: 20px;line-height: 35px;}
+.micePage p input{width:35px;height:25px;background:#fff;border-radius: 5px;border: 1px solid #DCDCDC;text-align: center;}
+.micePage .queDing{float: left;margin-left: 25px;width: 60px;height: 25px;color: #fff;margin-top:5px;background-color: #EC5405;border: 0px;border-radius: 5px;}
