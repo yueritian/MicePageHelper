@@ -1,4 +1,5 @@
 # MicePageHelper
+Jquery分页插件
 
 ## 插件初始化
 ```javascript
